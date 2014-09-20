@@ -1,4 +1,5 @@
 arduino-networktables-bridge
 ============================
 Requirements:
+ - SmartDashboard.jar in classpath (for access to NetworkTables) [UPDATE: This is now included as a linked Netbeans library!]
  - Java RXTX (http://mfizz.com/oss/rxtx-for-java) installed properly (for comms with arduino)
