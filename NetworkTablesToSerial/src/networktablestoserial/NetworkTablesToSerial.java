@@ -25,7 +25,6 @@ public class NetworkTablesToSerial {
         table = NetworkTable.getTable("arduinoLED");
         // in the image processing loop
         table.beginTransaction();
-        table.putBoolean("arduinoConnected", true);
         airpressure = table.getDouble("airpressure");
         table.endTransaction();
     }
